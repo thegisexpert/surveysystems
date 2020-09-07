@@ -14,7 +14,7 @@
     $(document).ready(function(){
         $("#newOrg").validate({
             submitHandler : function(form) {
-                bootbox.dialog('Esta Seguro de continuar?', [{
+                bootbox.dialog('Esta usted Seguro de continuar?', [{
                          'label':'No',
                          'class':'btn'
                         },
